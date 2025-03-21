@@ -3,6 +3,9 @@
 </h1>
 
 
+Use Following One Liner To Install "brew unlink python@3.13 && brew install python@3.11 && rm -rf owl .venv && git clone --recurse-submodules --depth 1 https://github.com/camel-ai/owl.git && cd owl && python3.11 -m venv .venv && source .venv/bin/activate && pip install --upgrade pip && uv pip install -e"
+
+
 <div align="center">
 
 [![Documentation][docs-image]][docs-url]
